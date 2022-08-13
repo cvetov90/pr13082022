@@ -55,11 +55,11 @@
 	
 		<?php foreach($array as $item): ?>
 				<div class="item">
-					<div class="item-img img-cover">
+					<div class="item-img">
 						<img src="<?php	echo $item['item_image']; ?>">
 					</div>
 					<div class="item-title">
-						<?php echo $item['item_title']; ?>
+						<?= $item['item_title']; ?>
 					</div>
 					<div class="item-btn">
 						<button class="btn">
